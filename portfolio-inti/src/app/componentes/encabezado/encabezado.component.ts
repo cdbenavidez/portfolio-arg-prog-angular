@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
   selector: 'app-encabezado',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./encabezado.component.css']
 })
 export class EncabezadoComponent {
+constructor (private datosPortfolio:PortfolioService){}
 
+ngOnInit(): void {
+this.datosPortfolio.obtenerDatos();
+}
 }
