@@ -7,6 +7,7 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { PresentacionComponent } from './componentes/presentacion/presentacion.component';
 import { CarouselComponent } from './componentes/carousel/carousel.component';
 import { BarraProgressComponent } from './componentes/barra-progress/barra-progress.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BarraProgressComponent } from './componentes/barra-progress/barra-progr
     BannerComponent,
     PresentacionComponent,
     CarouselComponent,
-    BarraProgressComponent
+    BarraProgressComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
