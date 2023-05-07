@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { PresentacionComponent } from './componentes/presentacion/presentacion.component';
+import { CarouselComponent } from './componentes/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     BannerComponent,
-    PresentacionComponent
+    PresentacionComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
