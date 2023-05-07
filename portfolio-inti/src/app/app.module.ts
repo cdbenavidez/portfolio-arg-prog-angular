@@ -6,6 +6,7 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { BannerComponent } from './componentes/banner/banner.component';
 import { PresentacionComponent } from './componentes/presentacion/presentacion.component';
 import { CarouselComponent } from './componentes/carousel/carousel.component';
+import { BarraProgressComponent } from './componentes/barra-progress/barra-progress.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CarouselComponent } from './componentes/carousel/carousel.component';
     EncabezadoComponent,
     BannerComponent,
     PresentacionComponent,
-    CarouselComponent
+    CarouselComponent,
+    BarraProgressComponent
   ],
   imports: [
     BrowserModule
